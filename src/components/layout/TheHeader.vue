@@ -8,7 +8,7 @@
           class="header-top-link"
         >
           <img
-            src="../../assets/img/top-banner-chinh-sach-bao-hanh-doi-tra.webp"
+            src="../../assets/img/top-banner-chinh-sach-bao-hanh-doi-tra.png"
             alt=""
           />
         </a>
@@ -18,7 +18,7 @@
           class="header-top-link"
         >
           <img
-            src="../../assets/img/top-banner-chinh-hang-xuat-vat-day-du.webp"
+            src="../../assets/img/top-banner-chinh-hang-xuat-vat-day-du.png"
             alt=""
           />
         </a>
@@ -28,7 +28,7 @@
           class="header-top-link"
         >
           <img
-            src="../../assets/img/top-banner-giao-nhanh-mien-phi.webp"
+            src="../../assets/img/top-banner-giao-nhanh-mien-phi.png"
             alt=""
           />
         </a>
