@@ -2,17 +2,17 @@
   <div class="home-top-right-container">
     <div class="home-top-right-item">
         <a href="">
-            <img src="../../../../assets/img/home-top-right/s21-fe-right-banner-th7.webp" alt="">
+            <img src="https://cdn2.cellphones.com.vn/690x300,webp,q10/https://dashboard.cellphones.com.vn/storage/s21-fe-right-banner-th7.png" alt="">
         </a>
        </div>
        <div class="home-top-right-item">
         <a href="">
-            <img src="../../../../assets/img/home-top-right/ipadth7-new.webp" alt="">
+            <img src="https://cdn2.cellphones.com.vn/690x300,webp,q10/https://dashboard.cellphones.com.vn/storage/ipadth7-new.png" alt="">
         </a>
        </div>
        <div class="home-top-right-item">
         <a href="">
-            <img src="../../../../assets/img/home-top-right/msi gaming right banner.webp" alt="">
+            <img src="https://cdn2.cellphones.com.vn/690x300,webp,q10/https://dashboard.cellphones.com.vn/storage/msi%20gaming%20right%20banner.jpg" alt="">
         </a>
        </div>
   </div>
