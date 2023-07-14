@@ -1,17 +1,29 @@
 <template>
   <div class="container content-container">
-    <HomeTop></HomeTop>
+    <home-top></home-top>
+    <home-content></home-content>
   </div>
 </template>
 
 <script>
 import HomeTop from "../../components/layout/base/home-top/HomeTop.vue";
+import HomeContent from "../../components/layout/base/home-content/HomeContent.vue";
 export default {
   components: {
     HomeTop,
+    HomeContent,
   },
 };
 </script>
 
-<style>
+<style  scoped>
+.content-container{
+    width: 1220px;
+    min-height: calc(100vh - 600px);
+    background: #fff;
+    padding: 0 10px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+}
 </style>

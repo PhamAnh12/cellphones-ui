@@ -1,0 +1,55 @@
+.home-horizonta-banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .home-horizonta-banner img {
+    border-radius: 10px;
+  }
+  .home-list-product-body {
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-list-product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 8px;
+    
+  }
+  .list-product-row-container{
+    
+    width: calc((100% - 40px)/5);
+  }
+  .home-list-product {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .home-list-product-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-product-header-tile {
+    font-weight: 700;
+  }
+  .list-product-header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-btn-item {
+    padding: 5px 10px;
+    background: #f3f4f6;
+    border-radius: 8px;
+    color: #444444;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .product-btn-item:last-child {
+    margin: 0;
+  }

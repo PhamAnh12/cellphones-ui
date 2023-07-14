@@ -1,13 +1,13 @@
 <template>
   <div class="home-top">
     <div class="home-top-left">
-       <HomeTopMenu  />
+       <home-top-menu  />
     </div>
     <div class="home-top-banner">
-       <HomeTopBanner />
+       <home-top-banner />
     </div>
     <div class="home-top-right">
-       <HomeTopRight />
+       <home-top-right />
     </div>
   </div>
 </template>

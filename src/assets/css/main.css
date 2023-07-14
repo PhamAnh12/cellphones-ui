@@ -1,5 +1,7 @@
 @import './base.css';
 @import url(./menu.css);
+@import url(./home-content.css);
+
 #app {
  
   margin: 0 auto; 

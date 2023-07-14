@@ -91,7 +91,7 @@
           />
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <a href="/mobile">
             <span>Điện Thoại,</span>
           </a>
           <a href="">

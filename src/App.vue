@@ -3,9 +3,9 @@
 
 <template>
   <div>
-    <TheHeader />
-    <TheContent />  
-    <TheFooter /> 
+    <the-header />
+    <the-content />  
+    <the-footer /> 
   </div>
  
 </template>
