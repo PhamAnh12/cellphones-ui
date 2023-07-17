@@ -1,12 +1,15 @@
 <template>
   <div class="home-top-banner-container">
-    <img
-      src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/khai-truong-soc-trang-sliding-th7.png"
-      alt=""
-    />
+ 
+      <img
+        src="https://cdn2.cellphones.com.vn/690x300,webp,q100/https://dashboard.cellphones.com.vn/storage/khai-truong-soc-trang-sliding-th7.png"
+        alt=""
+      />
+      
+   
 
     <div class="top-banner-content">
-      <div class="top-banner-content-item banner-content-item--active">
+      <div  class="top-banner-content-item banner-content-item--active">
         <h5>MÙNG KHAI TRƯƠNG</h5>
         <p>Giảm đến 87%</p>
       </div>
@@ -45,7 +48,12 @@ export default {};
 .home-top-banner-container img {
   width: 100%;
 }
-
+.home-top-banner-list-img {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  
+}
 .top-banner-content {
   display: flex;
   justify-content: space-between;

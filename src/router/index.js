@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/page/Home.vue'
+import Home from '../views/page/home/Home.vue'
 import Mobile from '../views/page/mobile/Mobile.vue'
 import iPhone from '../views/page/mobile/iPhone.vue'
 const router = createRouter({

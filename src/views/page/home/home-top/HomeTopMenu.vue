@@ -1,65 +1,65 @@
 <template>
-  <MenuListPhone
+  <m-phone
     v-show="isMenuPhone"
     @mouseover="isMenuPhone = true"
     @mouseleave="isMenuPhone = false"
   >
-  </MenuListPhone>
-  <MenuListLaptop
+  </m-phone>
+  <m-laptop
     v-show="isMenuLaptop"
     @mouseover="isMenuLaptop = true"
     @mouseleave="isMenuLaptop = false"
   />
-  <MenuListEarphone
+  <m-earphone
     v-show="isMenuEarphone"
     @mouseover="isMenuEarphone = true"
     @mouseleave="isMenuEarphone = false"
   />
-  <MenuListClock
+  <m-clock
     v-show="isMenuClock"
     @mouseover="isMenuClock = true"
     @mouseleave="isMenuClock = false"
-  ></MenuListClock>
-  <MenuListSmartHome
+  ></m-clock>
+  <m-smart-home
     v-show="isMenuSmartHome"
     @mouseover="isMenuSmartHome = true"
     @mouseleave="isMenuSmartHome = false"
   />
-  <MenuListAccessory
+  <m-accessory
     v-show="isMenuAccessory"
     @mouseover="isMenuAccessory = true"
     @mouseleave="isMenuAccessory = false"
-  ></MenuListAccessory>
-  <MenuListPC
+  ></m-accessory>
+  <m-computer
     v-show="isMenuPC"
     @mouseover="isMenuPC = true"
     @mouseleave="isMenuPC = false"
-  ></MenuListPC>
-  <MenuListTivi
+  ></m-computer>
+  <m-tivi
     v-show="isMenuTivi"
     @mouseover="isMenuTivi = true"
     @mouseleave="isMenuTivi = false"
-  ></MenuListTivi>
-  <MenuListPriceOld
+  ></m-tivi>
+  <m-price-old
     v-show="isMenuPriceOld"
     @mouseover="isMenuPriceOld = true"
     @mouseleave="isMenuPriceOld = false"
-  ></MenuListPriceOld>
-  <MenuListOld
+  ></m-price-old>
+  <m-old
     v-show="isMenuOld"
     @mouseover="isMenuOld = true"
     @mouseleave="isMenuOld = false"
-  ></MenuListOld>
-  <MenuListPromotion
+  ></m-old>
+  <m-promotion
     v-show="isMenuPromotion"
     @mouseover="isMenuPromotion = true"
     @mouseleave="isMenuPromotion = false"
-  ></MenuListPromotion>
-  <MenuListNewsTech
+  ></m-promotion>
+  <m-news-tech
     v-show="isMenuNewTech"
     @mouseover="isMenuNewTech = true"
     @mouseleave="isMenuNewTech = false"
-  ></MenuListNewsTech>
+  ></m-news-tech>
   <div class="home-top-menu">
     <div
       class="home-top-menu-item"
@@ -658,32 +658,32 @@
 </template>
 
 <script>
-import MenuListPhone from "./menu/MenuListPhone.vue";
-import MenuListLaptop from "./menu/MenuListLaptop.vue";
-import MenuListEarphone from "./menu/MenuListEarphone.vue";
-import MenuListClock from "./menu/MenuListClock.vue";
-import MenuListSmartHome from "./menu/MenuListSmartHome.vue";
-import MenuListAccessory from "./menu/MenuListAccessory.vue";
-import MenuListPC from "./menu/MenuListPC.vue";
-import MenuListTivi from "./menu/MenuListTivi.vue";
-import MenuListPriceOld from "./menu/MenuListPriceOld.vue";
-import MenuListOld from "./menu/MenuListOld.vue";
-import MenuListPromotion from "./menu/MenuListPromotion.vue";
-import MenuListNewsTech from "./menu/MenuListNewsTech.vue";
+import MPhone from "./menu/MenuPhone.vue";
+import MLaptop from "./menu/MenuLaptop.vue";
+import MEarphone from "./menu/MenuEarphone.vue";
+import MClock from "./menu/MenuClock.vue";
+import MSmartHome from "./menu/MenuSmartHome.vue";
+import MAccessory from "./menu/MenuAccessory.vue";
+import MComputer from "./menu/MenuComputer.vue";
+import MTivi from "./menu/MenuTivi.vue";
+import MPriceOld from "./menu/MenuPriceOld.vue";
+import MOld from "./menu/MenuOld.vue";
+import MPromotion from "./menu/MenuPromotion.vue";
+import MNewsTech from "./menu/MenuNewsTech.vue";
 export default {
   components: {
-    MenuListPhone,
-    MenuListLaptop,
-    MenuListEarphone,
-    MenuListClock,
-    MenuListSmartHome,
-    MenuListAccessory,
-    MenuListPC,
-    MenuListTivi,
-    MenuListPriceOld,
-    MenuListOld,
-    MenuListPromotion,
-    MenuListNewsTech,
+    MPhone,
+    MLaptop,
+    MEarphone,
+    MClock,
+    MSmartHome,
+    MAccessory,
+    MComputer,
+    MTivi,
+    MPriceOld,
+    MOld,
+    MPromotion,
+    MNewsTech,
   },
   data() {
     return {

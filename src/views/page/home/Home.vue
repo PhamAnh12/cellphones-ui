@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import HomeTop from "../../components/layout/base/home-top/HomeTop.vue";
-import HomeContent from "../../components/layout/base/home-content/HomeContent.vue";
+import HomeTop from "../home/home-top/HomeTop.vue";
+import HomeContent from "../home/home-content/HomeContent.vue";
 export default {
   components: {
     HomeTop,

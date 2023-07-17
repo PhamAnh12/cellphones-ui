@@ -37,7 +37,8 @@
           <icon-star />
         </div>
       </div>
-      <div class="product-item-footer"></div>
+      <div class="product-item-footer">
+      </div>
     </div>
   </div>
 </template>
@@ -58,12 +59,14 @@ export default {
 <style scoped>
 .product-container {
   min-height: 202px;
- width: 100%;
+  width:calc(100% - 5px);
   background: #ffffff;
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
     0 2px 6px 2px rgba(60, 64, 67, 0.15);
   border-radius: 15px;
   position: relative;
+  height: auto;
+ 
 }
 .product-item {
   width: 100%;
@@ -80,6 +83,9 @@ export default {
 .product-item-title {
   height: 64px;
   font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+
 }
 .product-item-price {
   display: flex;
@@ -91,6 +97,10 @@ export default {
   font-weight: 700;
   font-size: 16px;
   color: var(--color--primary);
+}
+.product-item-price-up{
+  font-size: 14px;
+  text-align: left;
 }
 .product-item-price-up {
   margin-bottom: 10px;

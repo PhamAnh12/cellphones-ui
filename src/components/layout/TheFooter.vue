@@ -213,17 +213,19 @@ export default {};
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
     0 2px 6px 2px rgba(60, 64, 67, 0.15);
   margin-top: 20px;
-  overflow-x: hidden;
   width: 100%;
+  
 }
 .footer-top {
   background: #ffff;
-  padding: 15px;
+  width: 1200px;
+  margin: auto;
 }
 .footer-top-content {
   display: flex;
   color: #4a4a4a;
   font-size: 12px;
+  width: 100%;
 }
 .columns-footer {
   width: 25%;
@@ -242,6 +244,9 @@ export default {};
 .columns-footer a {
   color: #4a4a4a;
   text-decoration: none;
+}
+.columns-footer p {
+  padding-bottom: 10px;
 }
 .footer-top-pay {
   display: flex;
