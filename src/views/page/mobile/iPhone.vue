@@ -1,5 +1,5 @@
 <template>
-    <div class="container content-container">
+    <div class="container ">
      iPhone
       </div>
 </template>

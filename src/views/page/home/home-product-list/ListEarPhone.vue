@@ -38,13 +38,15 @@
           priceNew: "2.660.000",
           priceOld: "3.990.000",
           priceUp: "2.660.000",
+          percent:20
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_170_1_1.png",
           title:"Tai nghe không dây Samsung Galaxy Buds Live",
           priceNew: "1.150.000",
           priceOld: "4.490.000",
           priceUp: "1.000.000",
+          percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_169_2.png",
@@ -52,6 +54,7 @@
           priceNew: "2.660.000",
           priceOld: "3.990.000",
           priceUp: "2.660.000",
+          percent:30
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
@@ -59,13 +62,39 @@
           priceNew: "1.150.000",
           priceOld: "4.490.000",
           priceUp: "1.000.000",
+          percent:20
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/f/r/frame_7_1.png",
           title:"Tai nghe không dây Samsung Galaxy Buds Live",
           priceNew: "1.150.000",
           priceOld: "4.490.000",
           priceUp: "1.000.000",
+          percent:25
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-buds-live.png",
+          title: "Tai nghe Bluetooth Apple AirPods 2 | Chính hãng Apple Việt Nam",
+          priceNew: "2.660.000",
+          priceOld: "3.990.000",
+          priceUp: "2.660.000",
+          percent:26
+        },
+ {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_169_2.png",
+          title: "Tai nghe Bluetooth Apple AirPods 2 | Chính hãng Apple Việt Nam",
+          priceNew: "2.660.000",
+          priceOld: "3.990.000",
+          priceUp: "2.660.000",
+          percent:20
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_170_1_1.png",
+          title:"Tai nghe không dây Samsung Galaxy Buds Live",
+          priceNew: "1.150.000",
+          priceOld: "4.490.000",
+          priceUp: "1.000.000",
+          percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_169_2.png",
@@ -73,6 +102,7 @@
           priceNew: "2.660.000",
           priceOld: "3.990.000",
           priceUp: "2.660.000",
+          percent:30
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
@@ -80,28 +110,25 @@
           priceNew: "1.150.000",
           priceOld: "4.490.000",
           priceUp: "1.000.000",
+          percent:20
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_169_2.png",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/f/r/frame_7_1.png",
+          title:"Tai nghe không dây Samsung Galaxy Buds Live",
+          priceNew: "1.150.000",
+          priceOld: "4.490.000",
+          priceUp: "1.000.000",
+          percent:25
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-buds-live.png",
           title: "Tai nghe Bluetooth Apple AirPods 2 | Chính hãng Apple Việt Nam",
           priceNew: "2.660.000",
           priceOld: "3.990.000",
           priceUp: "2.660.000",
+          percent:26
         },
-        {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
-          title:"Tai nghe không dây Samsung Galaxy Buds Live",
-          priceNew: "1.150.000",
-          priceOld: "4.490.000",
-          priceUp: "1.000.000",
-        },
-        {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_150_1_3.png",
-          title:"Tai nghe không dây Samsung Galaxy Buds Live",
-          priceNew: "1.150.000",
-          priceOld: "4.490.000",
-          priceUp: "1.000.000",
-        },
+     
       ],
     };
   },

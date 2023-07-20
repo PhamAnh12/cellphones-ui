@@ -34,6 +34,7 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-0010.png",
@@ -41,6 +42,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:20,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g7-amd-30.png",
@@ -48,6 +51,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:40,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_176_2_.png",
@@ -55,6 +60,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:15,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-00001_1.png",
@@ -62,6 +69,8 @@ export default {
           priceNew: "26.990.000",
           priceOld: "35.990.000",
           priceUp: "24.490.000",
+          percent:18,
+
         },
          {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_176_2_.png",
@@ -69,6 +78,7 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-0010.png",
@@ -76,6 +86,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:20,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g7-amd-30.png",
@@ -83,6 +95,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:40,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_176_2_.png",
@@ -90,6 +104,8 @@ export default {
           priceNew: "36.990.000",
           priceOld: "45.990.000",
           priceUp: "34.490.000",
+          percent:15,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-00001_1.png",
@@ -97,7 +113,55 @@ export default {
           priceNew: "26.990.000",
           priceOld: "35.990.000",
           priceUp: "24.490.000",
+          percent:18,
+
         },
+         {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_176_2_.png",
+          title: "PC Gaming Asus ROG Strix GT15 G15CF-71270F110W",
+          priceNew: "36.990.000",
+          priceOld: "45.990.000",
+          priceUp: "34.490.000",
+          percent:10,
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-0010.png",
+          title: "PC Gaming Asus ROG Strix GT15 G15CF-71270F110W",
+          priceNew: "36.990.000",
+          priceOld: "45.990.000",
+          priceUp: "34.490.000",
+          percent:20,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g7-amd-30.png",
+          title: "PC Gaming Asus ROG Strix GT15 G15CF-71270F110W",
+          priceNew: "36.990.000",
+          priceOld: "45.990.000",
+          priceUp: "34.490.000",
+          percent:40,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/r/group_176_2_.png",
+          title: "PC Gaming Asus ROG Strix GT15 G15CF-71270F110W",
+          priceNew: "36.990.000",
+          priceOld: "45.990.000",
+          priceUp: "34.490.000",
+          percent:15,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/p/c/pc-cps-gaming-g8-amd-00001_1.png",
+          title: "PC Gaming Asus ROG Strix GT15 G15CF-71270F110W",
+          priceNew: "26.990.000",
+          priceOld: "35.990.000",
+          priceUp: "24.490.000",
+          percent:18,
+
+        },
+        
+        
       ],
     };
   },

@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="home-list-product-body">
-      <b-swiper :products="phones"></b-swiper>
+      <b-swiper :products="phones" :gridRows="1"></b-swiper>
     </div>
   </div>
 </template>
@@ -36,6 +36,7 @@ export default {
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+          percent:22
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -43,6 +44,8 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+          percent:24
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -50,6 +53,8 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+          percent:26
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
@@ -57,6 +62,8 @@ export default {
           priceNew: "18.990.000",
           priceOld: "22.990.000",
           priceUp: "16.990.000",
+          percent:27
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
@@ -64,13 +71,16 @@ export default {
           priceNew: "24.450.000",
           priceOld: "27.990.000",
           priceUp: "22.450.000",
+          percent:12
+
         },
-        {
+          {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
           title: "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+          percent:22
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -78,6 +88,8 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+          percent:24
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -85,6 +97,8 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+          percent:26
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
@@ -92,6 +106,8 @@ export default {
           priceNew: "18.990.000",
           priceOld: "22.990.000",
           priceUp: "16.990.000",
+          percent:27
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
@@ -99,14 +115,17 @@ export default {
           priceNew: "24.450.000",
           priceOld: "27.990.000",
           priceUp: "22.450.000",
+          percent:12
+
         },
-      
-        {
+    
+      {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
           title: "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+          percent:22
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -114,6 +133,8 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+          percent:24
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -121,6 +142,8 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+          percent:26
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
@@ -128,6 +151,8 @@ export default {
           priceNew: "18.990.000",
           priceOld: "22.990.000",
           priceUp: "16.990.000",
+          percent:27
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
@@ -135,9 +160,56 @@ export default {
           priceNew: "24.450.000",
           priceOld: "27.990.000",
           priceUp: "22.450.000",
+          percent:12
+
         },
-      
-      
+    
+      {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
+          title: "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+          priceNew: "26.490.000",
+          priceOld: "29.990.000",
+          priceUp: "24.490.000",
+          percent:22
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
+          title: "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+          priceNew: "16.490.000",
+          priceOld: "18.990.000",
+          priceUp: "15.250.000",
+          percent:24
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
+          title: "iPhone 11 64GB | Chính hãng VN/A",
+          priceNew: "10.650.000",
+          priceOld: "11.990.000",
+          priceUp: "10.150.000",
+          percent:26
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
+          title: "iPhone 14  128GB | Chính hãng VN/A",
+          priceNew: "18.990.000",
+          priceOld: "22.990.000",
+          priceUp: "16.990.000",
+          percent:27
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
+          title: "iPhone 14 Pro  128GB | Chính hãng VN/A",
+          priceNew: "24.450.000",
+          priceOld: "27.990.000",
+          priceUp: "22.450.000",
+          percent:12
+
+        },
+    
+    
       ],
     };
   },

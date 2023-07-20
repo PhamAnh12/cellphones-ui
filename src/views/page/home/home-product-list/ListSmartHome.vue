@@ -37,6 +37,7 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -44,6 +45,7 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -51,6 +53,7 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -58,6 +61,8 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:10,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -65,13 +70,16 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:18,
+
         },
-        {
+       {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
           title: "Máy lọc không khí Xiaomi Air Purifier 4 Lite",
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -79,6 +87,7 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -86,6 +95,7 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -93,6 +103,8 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:10,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -100,13 +112,15 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
-        },
-        {
+          percent:18,
+
+        },  {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
           title: "Máy lọc không khí Xiaomi Air Purifier 4 Lite",
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -114,6 +128,7 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -121,6 +136,7 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png",
@@ -128,6 +144,8 @@
           priceNew: "1.890.000",
           priceOld: "2.590.000",
           priceUp: "1.790.000",
+          percent:10,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png",
@@ -135,6 +153,8 @@
           priceNew: "2.690.000",
           priceOld: "3.990.000",
           priceUp: "1.690.000",
+          percent:18,
+
         },
       ],
     };

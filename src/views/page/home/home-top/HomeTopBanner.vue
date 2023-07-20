@@ -79,14 +79,9 @@ export default {};
 .banner-content-item--active h5 {
   font-weight: 600;
 }
-.banner-content-item--active::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  background: var(--color--primary);
-  height: 2px;
-  bottom: 0;
-  left: 0;
+.banner-content-item--active {
+ 
+ border-bottom: 2.5px solid   var(--color--primary);
 }
 .top-banner-content-item:hover {
   background: #f7f7f7;

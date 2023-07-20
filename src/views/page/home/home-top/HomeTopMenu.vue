@@ -91,12 +91,12 @@
           />
         </svg>
         <div class="top-menu-item-content">
-          <a href="/mobile">
+          <router-link class="top-menu-item-link" to="/mobile">
             <span>Điện Thoại,</span>
-          </a>
-          <a href="">
+          </router-link>
+          <router-link  class="top-menu-item-link" to="">
             <span>Tablet</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -137,9 +137,9 @@
           />
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Laptop</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -190,9 +190,9 @@
           </g>
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Âm thanh</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -228,12 +228,12 @@
         </svg>
 
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Đồng hồ,</span>
-          </a>
-          <a href="">
+          </router-link>
+          <router-link class="top-menu-item-link" to="">
             <span> Máy ảnh</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -283,12 +283,12 @@
           />
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Gia dụng,</span>
-          </a>
-          <a href="">
+          </router-link>
+          <router-link class="top-menu-item-link" to="">
             <span>Smarthome</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -331,9 +331,9 @@
           </g>
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Phụ kiện</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -372,12 +372,12 @@
         </svg>
 
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>PC,</span>
-          </a>
-          <a href="">
+          </router-link>
+          <router-link class="top-menu-item-link" to="">
             <span>Màn hình</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -424,9 +424,9 @@
         </svg>
 
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Tivi</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -461,9 +461,9 @@
           />
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link to="">
             <span>Thu cũ đổi mới</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -517,9 +517,9 @@
           </g>
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link  class="top-menu-item-link" to="">
             <span>Hàng cũ</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -579,9 +579,9 @@
           </g>
         </svg>
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Khuyến mãi</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -635,9 +635,9 @@
         </svg>
 
         <div class="top-menu-item-content">
-          <a href="">
+          <router-link class="top-menu-item-link" to="">
             <span>Tin công nghệ</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="top-menu-item-right">
@@ -748,10 +748,23 @@ export default {
   text-decoration: none;
   margin-left: 5px;
 }
-
+.top-menu-item-content .top-menu-item-link  span {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #343a40;
+  font-size: 12px;
+  font-weight: 700;
+  overflow: hidden;
+  text-decoration: none;
+  margin-left: 5px;
+}
 .top-menu-item-content a :hover {
   color: var(--color--primary);
 }
+.top-menu-item-content .top-menu-item-link :hover {
+  color: var(--color--primary);
+}
+
 .top-menu-item-phonee:hover ~ .top-menu-list {
   display: block;
 }

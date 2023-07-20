@@ -41,7 +41,7 @@
             <img src="../../assets/img/Logo.png" alt="" />
           </a>
         </div>
-        <div class="header-navbar-item navbar-item-menu">
+        <div class="header-navbar-item navbar-item-menu" @click ="isMenuShow=!isMenuShow">
           <div class="navbar-item-icon">
             <div class="navbar-item-icon-menu">
               <svg width="18px" height="18px" viewBox="0 0 0.6 0.6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.075 0.3h0.45M0.075 0.15h0.45M0.075 0.45h0.3" stroke="#ffffff" stroke-width="0.05" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -114,10 +114,29 @@
       </div>
     </div>
   </div>
+   <div class="layout-modal" v-if="isMenuShow">
+    <div class="layout-overlay">
+        <div class="layout-body">
+          <div class="layout-menu" ref="modal-menu" >
+            <home-top-menu></home-top-menu>
+          </div>
+        </div>
+    </div> 
+  </div>
 </template>
 
 <script>
-export default {};
+import HomeTopMenu from '../../views/page/home/home-top/HomeTopMenu.vue';
+export default {
+  components:{
+    HomeTopMenu
+  },
+  data(){
+    return {
+      isMenuShow:false
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -259,5 +278,39 @@ input::placeholder{
   min-width: 70px;
   background-color: hsla(0, 0%, 100%, 0.2);
 }
+.layout-modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.layout-overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.layout-body{
+   position: relative;
+   margin-top: 118px;
+   height: 100%;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+.layout-body .layout-menu{
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
+    display: block;
+    height: 376px;
+    margin-right: 15px;
+    overflow: auto;
+    width: 205px;
+    z-index: 4;
+    background: #ffff;
+}
 </style>
->
+

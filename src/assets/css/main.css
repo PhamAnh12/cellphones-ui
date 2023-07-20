@@ -2,6 +2,7 @@
 @import url(./menu.css);
 @import url(./home-content.css);
 @import url(./swiper-silder.css);
+@import url(./page-link.css);
 
 #app {
  
@@ -32,5 +33,13 @@
   100% {
     box-shadow: 0 0 0 0 rgba(2, 143, 227, 0);
     transform: scale(0.95);
+  }
+}
+@keyframes growth{
+  from{
+      transform: scale(0.99);
+  }
+  to{
+      transform: scale(1);
   }
 }

@@ -37,6 +37,7 @@ export default {
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
@@ -44,6 +45,8 @@ export default {
           priceNew: "5.990.000",
           priceOld: "9.990.000",
           priceUp: "5.000.000",
+          percent:13,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/i/tivi-xiaomi-a-32-inch-hd_1_1_1.png",
@@ -51,6 +54,8 @@ export default {
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:15,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
@@ -58,6 +63,8 @@ export default {
           priceNew: "5.990.000",
           priceOld: "9.990.000",
           priceUp: "5.000.000",
+          percent:20,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_74_38.jpg",
@@ -65,13 +72,16 @@ export default {
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:22,
+
         },
-        {
+         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_74_38.jpg",
           title: "Android Tivi Xiaomi P1 55 inch",
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:10,
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
@@ -79,6 +89,8 @@ export default {
           priceNew: "5.990.000",
           priceOld: "9.990.000",
           priceUp: "5.000.000",
+          percent:13,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/i/tivi-xiaomi-a-32-inch-hd_1_1_1.png",
@@ -86,6 +98,8 @@ export default {
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:15,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
@@ -93,6 +107,8 @@ export default {
           priceNew: "5.990.000",
           priceOld: "9.990.000",
           priceUp: "5.000.000",
+          percent:20,
+
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_74_38.jpg",
@@ -100,7 +116,54 @@ export default {
           priceNew: "7.990.000",
           priceOld: "11.990.000",
           priceUp: "7.000.000",
+          percent:22,
+
         },
+         {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_74_38.jpg",
+          title: "Android Tivi Xiaomi P1 55 inch",
+          priceNew: "7.990.000",
+          priceOld: "11.990.000",
+          priceUp: "7.000.000",
+          percent:10,
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
+          title:"Android Tivi Xiaomi P1 43 inch",
+          priceNew: "5.990.000",
+          priceOld: "9.990.000",
+          priceUp: "5.000.000",
+          percent:13,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/i/tivi-xiaomi-a-32-inch-hd_1_1_1.png",
+          title: "Android Tivi Xiaomi P1 55 inch",
+          priceNew: "7.990.000",
+          priceOld: "11.990.000",
+          priceUp: "7.000.000",
+          percent:15,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_24__1_5_1.png",
+          title:"Android Tivi Xiaomi P1 43 inch",
+          priceNew: "5.990.000",
+          priceOld: "9.990.000",
+          priceUp: "5.000.000",
+          percent:20,
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/_/1_74_38.jpg",
+          title: "Android Tivi Xiaomi P1 55 inch",
+          priceNew: "7.990.000",
+          priceOld: "11.990.000",
+          priceUp: "7.000.000",
+          percent:22,
+
+        },
+       
       ],
     };
   },

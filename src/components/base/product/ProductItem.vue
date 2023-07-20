@@ -17,17 +17,14 @@
             <div class="product-item-price-new">{{ product.priceNew }}₫</div>
             <div class="product-item-price-old">{{ product.priceOld }}₫</div>
             <div class="product-item-price-percent">
-              <p>Giảm  10%</p>
+              <p>Giảm {{product.percent}}% </p>
             </div>
           </div>
           <div class="product-item-price-up">
             Giá lên đời: <span class="">{{ product.priceUp }} ₫</span>
           </div>
         </a>
-        <!-- <div class="product-item-coupon">
-          Nhận ngay ưu đãi YouTUbe <br />
-          Premium dành cho chủ sở hữu...
-        </div> -->
+        
 
         <div class="product-item-list-icon">
           <icon-star />
@@ -38,19 +35,37 @@
         </div>
       </div>
       <div class="product-item-footer">
+           <p>Yêu thích</p>
+           <div class="product-item-icon-heart" @mousemove="isIconHeart=false;isIconHeartRed=true" @mouseout="isIconHeart=true;isIconHeartRed=false" >
+             <icon-heart  v-show="isIconHeart"/>
+             <icon-heart-red v-show="isIconHeartRed" />
+           </div>
+          
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import IconHeart from '../icon/IconHeart.vue';
 import IconStar from "../icon/IconStar.vue";
+import IconHeartRed from '../icon/IconHeartRed.vue';
+
+
 export default {
   components: {
     IconStar,
+    IconHeart,
+    IconHeartRed
   },
   props:{
     product: Object
+  },
+  data(){
+    return{
+      isIconHeart:true,
+      isIconHeartRed:false,
+    }
   }
 
 };
@@ -143,7 +158,7 @@ export default {
   height: 26px;
   margin: 0 0 10px 10px;
   background: var(--color--primary);
-  z-index: 3;
+  z-index: 2;
 }
 .product-item-price-percent p{
     color: #fff;
@@ -165,5 +180,24 @@ export default {
     z-index: 1;
 
 }
+.product-item-footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+.product-item-footer p{
+  font-size: 12px;
+}
+.product-item-footer .product-item-icon-heart{
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
 
 </style>

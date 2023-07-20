@@ -36,6 +36,7 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -43,6 +44,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+          percent:25
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -50,6 +52,31 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:35
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_lte_4_.png",
+          title:"Apple Watch Series 8 41mm GPS viền nhôm | Chính hãng VN/A",
+          priceNew: "9.090.000",
+          priceOld: "11.990.000",
+          priceUp: "8.090.000",
+           percent:15
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:25
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:24
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -57,6 +84,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -64,13 +92,15 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:20
         },
-        {
+         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
           title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -78,6 +108,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+          percent:25
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -85,6 +116,31 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:35
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_lte_4_.png",
+          title:"Apple Watch Series 8 41mm GPS viền nhôm | Chính hãng VN/A",
+          priceNew: "9.090.000",
+          priceOld: "11.990.000",
+          priceUp: "8.090.000",
+           percent:15
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:25
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:24
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -92,6 +148,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -99,13 +156,16 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:20
         },
-        {
+      
+       {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
           title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -113,6 +173,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+          percent:25
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -120,6 +181,31 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:35
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_lte_4_.png",
+          title:"Apple Watch Series 8 41mm GPS viền nhôm | Chính hãng VN/A",
+          priceNew: "9.090.000",
+          priceOld: "11.990.000",
+          priceUp: "8.090.000",
+           percent:15
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:25
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
+          title: "Apple Watch SE 2022 40mm | Chính Hãng VN/A",
+          priceNew: "6.050.000",
+          priceOld: "7.490.000",
+          priceUp: "5.050.000",
+           percent:24
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/a/p/apple_gps_1_.png",
@@ -127,6 +213,7 @@
           priceNew: "9.090.000",
           priceOld: "11.990.000",
           priceUp: "8.090.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/a/watch_se.png",
@@ -134,7 +221,10 @@
           priceNew: "6.050.000",
           priceOld: "7.490.000",
           priceUp: "5.050.000",
+           percent:20
         },
+      
+      
       ],
     };
   },

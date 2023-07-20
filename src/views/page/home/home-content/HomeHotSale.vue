@@ -46,6 +46,7 @@ export default {
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+          percent:10
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -53,6 +54,7 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+           percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -60,6 +62,7 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
@@ -67,6 +70,7 @@ export default {
           priceNew: "18.990.000",
           priceOld: "22.990.000",
           priceUp: "16.990.000",
+           percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
@@ -74,6 +78,7 @@ export default {
           priceNew: "24.450.000",
           priceOld: "27.990.000",
           priceUp: "22.450.000",
+           percent:30
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/4/_/4_45_20.jpg",
@@ -81,6 +86,7 @@ export default {
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+           percent:40
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -88,6 +94,7 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -95,6 +102,7 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/4/_/4_45_20.jpg",
@@ -102,6 +110,7 @@ export default {
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -109,6 +118,7 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+           percent:25
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -116,6 +126,7 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+           percent:35
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-14-storage-select-202209-6-1inch-y889.jpg",
@@ -123,6 +134,7 @@ export default {
           priceNew: "18.990.000",
           priceOld: "22.990.000",
           priceUp: "16.990.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_12.png",
@@ -130,6 +142,7 @@ export default {
           priceNew: "24.450.000",
           priceOld: "27.990.000",
           priceUp: "22.450.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/4/_/4_45_20.jpg",
@@ -137,6 +150,7 @@ export default {
           priceNew: "26.490.000",
           priceOld: "29.990.000",
           priceUp: "24.490.000",
+           percent:20
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
@@ -144,6 +158,7 @@ export default {
           priceNew: "16.490.000",
           priceOld: "18.990.000",
           priceUp: "15.250.000",
+           percent:15
         },
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
@@ -151,6 +166,7 @@ export default {
           priceNew: "10.650.000",
           priceOld: "11.990.000",
           priceUp: "10.150.000",
+           percent:15
         },
       ],
       hotSale: {
@@ -159,6 +175,7 @@ export default {
         priceNew: "10.650.000",
         priceOld: "11.990.000",
         priceUp: "10.150.000",
+         percent:15
       },
     };
   },

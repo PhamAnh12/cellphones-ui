@@ -1,5 +1,8 @@
 <template>
-  <router-view></router-view>
+  <div class="content-container">
+    <router-view></router-view>
+  </div>
+  
   
 </template>
 
@@ -20,6 +23,8 @@ export default {
     padding: 0 10px;
     margin-top: 120px;
     margin-bottom: 20px;
+    margin-left:auto ;
+    margin-right:auto ;
 
 }
 </style>

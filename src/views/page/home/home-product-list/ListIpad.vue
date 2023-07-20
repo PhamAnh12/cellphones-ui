@@ -33,70 +33,133 @@ export default {
           priceNew: "25.590.000",
           priceOld: "33.990.000",
           priceUp: "24.590.000",
+          percent:12
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:18
         },
         {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/x/_/x_mmas.png",
+          title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "25.590.000",
+          priceOld: "33.990.000",
+          priceUp: "24.590.000",
+          percent:22
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select.png",
+          title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "18.990.000",
+          priceOld: "23.990.000",
+          priceUp: "17.990.000",
+          percent:23
+        },
+         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-12-9-2021-2_2_1_1_1_1_1.png",
           title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
           priceNew: "25.590.000",
           priceOld: "33.990.000",
           priceUp: "24.590.000",
+          percent:12
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:18
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/x/_/x_mmas.png",
+          title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "25.590.000",
+          priceOld: "33.990.000",
+          priceUp: "24.590.000",
+          percent:22
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select.png",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:23
         },
-        {
+         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-12-9-2021-2_2_1_1_1_1_1.png",
           title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
           priceNew: "25.590.000",
           priceOld: "33.990.000",
           priceUp: "24.590.000",
+          percent:12
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:18
         },
         {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/x/_/x_mmas.png",
+          title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "25.590.000",
+          priceOld: "33.990.000",
+          priceUp: "24.590.000",
+          percent:22
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select.png",
+          title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "18.990.000",
+          priceOld: "23.990.000",
+          priceUp: "17.990.000",
+          percent:23
+        },
+         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-12-9-2021-2_2_1_1_1_1_1.png",
           title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
           priceNew: "25.590.000",
           priceOld: "33.990.000",
           priceUp: "24.590.000",
+          percent:12
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/a/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:18
         },
         {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-pro-2021-11inch-grey_2.jpg",
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/x/_/x_mmas.png",
+          title: "iPad Pro 12.9 2021 M1 5G 128GB I Chính hãng Apple Việt Nam",
+          priceNew: "25.590.000",
+          priceOld: "33.990.000",
+          priceUp: "24.590.000",
+          percent:22
+
+        },
+        {
+          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/ipad-2022-hero-silver-wifi-select.png",
           title: "iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam",
           priceNew: "18.990.000",
           priceOld: "23.990.000",
           priceUp: "17.990.000",
+          percent:23
         },
+      
       ],
     };
   },
