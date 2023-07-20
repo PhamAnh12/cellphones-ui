@@ -208,61 +208,61 @@
         <div class="product-criteria-item">
           <p>Nhu cầu sử dụng</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Loại điện thoại</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Bộ nhớ trong</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Dung lượng RAM</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tính năng đặc biệt</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tính năng camera</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tần số quét</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Kích thước màng hình</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Kiểu màn hình</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Chíp sử lí</p>
           <div class="product-criteria-item-icon">
-            <icon-down :colorDown= colorDown></icon-down>
+            <icon-down ></icon-down>
           </div>
         </div>
       </div>
@@ -308,11 +308,11 @@
         <product-item :product="phone"></product-item>
       </div>
     </div>
-    <div class="page-product-add-btn"   @mouseover="colorDown = colorDownRed"  @mouseleave="colorDown = '#00000'">
+    <div class="page-product-add-btn"  >
       <div class="product-add-btn-container">
         <span> Xem thêm 100 sản phẩm</span>
         <div class="product-add-btn-icon">
-          <icon-down :colorDown= colorDown></icon-down>
+          <icon-down ></icon-down>
         </div>
       </div>
     </div>
