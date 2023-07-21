@@ -208,94 +208,84 @@
         <div class="product-criteria-item">
           <p>Nhu cầu sử dụng</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Loại điện thoại</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Bộ nhớ trong</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Dung lượng RAM</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tính năng đặc biệt</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tính năng camera</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Tần số quét</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Kích thước màng hình</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Kiểu màn hình</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
         <div class="product-criteria-item">
           <p>Chíp sử lí</p>
           <div class="product-criteria-item-icon">
-            <icon-down ></icon-down>
+            <icon-down></icon-down>
           </div>
         </div>
       </div>
     </div>
 
     <div class="page-product-sort">
-      <div class="page-product-sort-title">
-        Sắp xếp theo
-      </div>
+      <div class="page-product-sort-title">Sắp xếp theo</div>
       <div class="page-product-sort-container">
         <div class="page-product-sort-item">
           <icon-sort-down />
-          <span>
-            Giá Cao - thấp
-          </span>
+          <span> Giá Cao - thấp </span>
         </div>
         <div class="page-product-sort-item">
           <icon-sort-up />
-          <span>
-            Giá thấp - cao
-          </span>
+          <span> Giá thấp - cao </span>
         </div>
         <div class="page-product-sort-item">
           <icon-percent />
-          <span>
-            Khuyến mãi hot
-          </span>
+          <span> Khuyến mãi hot </span>
         </div>
         <div class="page-product-sort-item product-sort-item--active">
           <icon-see />
-          <span>
-          Xem nhiều
-          </span>
+          <span> Xem nhiều </span>
         </div>
       </div>
     </div>
@@ -308,15 +298,16 @@
         <product-item :product="phone"></product-item>
       </div>
     </div>
-    <div class="page-product-add-btn"  >
+    <div class="page-product-add-btn">
       <div class="product-add-btn-container">
         <span> Xem thêm 100 sản phẩm</span>
         <div class="product-add-btn-icon">
-          <icon-down ></icon-down>
+          <icon-down></icon-down>
         </div>
       </div>
     </div>
   </div>
+  <page-product-bottom></page-product-bottom>
 </template>
 
 <script>
@@ -333,6 +324,7 @@ import IconSortUp from "../../../components/base/icon/IconSortUp.vue";
 import IconSortDown from "../../../components/base/icon/IconSortDown.vue";
 import IconPercent from "../../../components/base/icon/IconPercent.vue";
 import IconSee from "../../../components/base/icon/IconSee.vue";
+import PageProductBottom from "../../../components/base/page-product/Page-product-botom/PageProductBottom.vue";
 export default {
   components: {
     BSwiper,
@@ -345,14 +337,15 @@ export default {
     IconMoney,
     IconTruck,
     IconSortUp,
-    IconSortDown ,
+    IconSortDown,
     IconPercent,
-    IconSee
+    IconSee,
+    PageProductBottom,
   },
   data() {
     return {
-      colorDown:"#00000",
-      colorDownRed:"#D70018",
+      colorDown: "#00000",
+      colorDownRed: "#D70018",
       phones: [
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
@@ -508,13 +501,7 @@ export default {
           priceOld: "22.990.000",
           priceUp: "16.990.000",
         },
-        {
-          img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
-          title: "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
-          priceNew: "26.490.000",
-          priceOld: "29.990.000",
-          priceUp: "24.490.000",
-        },
+
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
           title: "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
@@ -630,20 +617,24 @@ p {
 }
 
 /* page-product-criteria page-product-sort */
-.page-product-criteria, .page-product-sort {
+.page-product-criteria,
+.page-product-sort {
   width: 100%;
 }
-.product-criteria-title, .page-product-sort-title {
+.product-criteria-title,
+.page-product-sort-title {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.product-criteria-container , .page-product-sort-container {
+.product-criteria-container,
+.page-product-sort-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.product-criteria-item , .page-product-sort-item {
+.product-criteria-item,
+.page-product-sort-item {
   align-items: center;
   background: #f3f4f6;
   border: 1px solid #e5e7eb;
@@ -658,17 +649,18 @@ p {
   white-space: nowrap;
   justify-content: space-between;
 }
-.product-criteria-item span ,.page-product-sort-item  span{
+.page-product-sort-item,
+.product-criteria-item span {
   margin-left: 6px;
 }
 .product-criteria-item p {
   margin-right: 6px;
 }
-.product-sort-item--active{
-  border: 1px solid var( --color--primary);
+.product-sort-item--active {
+  border: 1px solid var(--color--primary);
   color: var(--color--primary);
   font-size: 13px;
-  background: #FEF2F2;
+  background: #fef2f2;
 }
 /* Page list product */
 .page-list-product {
@@ -677,7 +669,6 @@ p {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 8px;
-  
 }
 .page-list-product-container {
   width: calc(100% / 5 - 10px);
@@ -686,34 +677,34 @@ p {
   margin-left: 10px;
 }
 /* page-product-add-btn */
-.page-product-add-btn{
+.page-product-add-btn {
   align-items: center;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
-    color: #212529;
-    display: flex;
-    font-size: 14px;
-    height: 34px;
-    justify-content: center;
-    margin: 0 auto 15px;
-    max-width: 335px;
-    cursor: pointer;
-
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  color: #212529;
+  display: flex;
+  font-size: 14px;
+  height: 34px;
+  justify-content: center;
+  margin: 0 auto 15px;
+  max-width: 335px;
+  cursor: pointer;
+  margin-top: 10px;
 }
-.page-product-add-btn:hover{
-  background-color: rgba(217,83,79,.1);
-    color: var(--color--primary);
-    border: 1px solid  var(--color--primary);
+.page-product-add-btn:hover {
+  background-color: var(--color-bg-hover);
+  color: var(--color--primary);
+  border: 1px solid var(--color--primary);
 }
 
-.product-add-btn-container{
-  display:flex;
+.product-add-btn-container {
+  display: flex;
   align-items: center;
   padding: 6px 14px;
- 
 }
-.product-add-btn-icon{
+.product-add-btn-icon {
   display: flex;
   align-items: center;
   margin-left: 6px;

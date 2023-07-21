@@ -3,6 +3,7 @@
  
   --color-background: #ffffff;
   --color--primary: #d70018;
+  --color-bg-hover: rgba(217,83,79,.1);
 
 }
 
@@ -42,4 +43,13 @@ body {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
+}
+strong{
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
