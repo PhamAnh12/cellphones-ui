@@ -11,7 +11,7 @@
 
 <script>
 import IconDown from "../../icon/IconDown.vue";
-import PageProductBlockContent from '../page-product-botom/PageProductBlockContent.vue';
+import PageProductBlockContent from './PageProductBlockContent.vue';
 import PageProductQuestion from './PageProductQuestion.vue';
 export default {
   components: {

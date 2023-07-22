@@ -107,7 +107,7 @@
         <p>TIN ĐỒN - MỚI RA</p>
       </router-link>
       <router-link class="product-list-firm-item" to="">
-        <P>HÃNG KHÁC</P>
+        <p>HÃNG KHÁC</p>
       </router-link>
     </div>
     <div class="page-product-demand">
@@ -324,7 +324,7 @@ import IconSortUp from "../../../components/base/icon/IconSortUp.vue";
 import IconSortDown from "../../../components/base/icon/IconSortDown.vue";
 import IconPercent from "../../../components/base/icon/IconPercent.vue";
 import IconSee from "../../../components/base/icon/IconSee.vue";
-import PageProductBottom from "../../../components/base/page-product/Page-product-botom/PageProductBottom.vue";
+import PageProductBottom from "../../../components/base/page-product/page-product-bottom/PageProductBottom.vue";
 export default {
   components: {
     BSwiper,
