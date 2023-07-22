@@ -5,7 +5,7 @@
         <p>Thương hiệu điện thoại</p>
         <ul>
           <a href=""><li>Samsung</li></a>
-          <a href="/mobile/iphone"><li>iPhone</li></a>
+          <router-link to="/mobile/iphone"><li>iPhone</li></router-link>
           <a href=""><li>Xiaomi</li></a>
           <a href=""><li>OPPO</li></a>
           <a href=""><li>vivo</li></a>

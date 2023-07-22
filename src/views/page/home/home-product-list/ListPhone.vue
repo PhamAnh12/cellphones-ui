@@ -1,7 +1,7 @@
 <template>
   <div class="home-list-product">
     <div class="home-list-product-header">
-      <a href="/mobile" class="list-product-header-tile">ĐIỆN THOẠI NỔI BẬT NHẤT</a>
+      <router-link to="/mobile" class="list-product-header-tile">ĐIỆN THOẠI NỔI BẬT NHẤT</router-link>
       <div class="list-product-header-btn">
         <a href="" class="product-btn-item">Apple</a>
         <a href="" class="product-btn-item">Samsung</a>
