@@ -1,10 +1,10 @@
 export default {
-    isFooter:true,
-    getIsFooter(){
-       return this.isFooter;
+    isShowMenu:false,
+    getShowMenu(){
+       return this.isShowMenu;
     },
-    setIsFooter(isFooter){
-        this.isFooter = isFooter;
+    setShowMenu(isShowMenu){
+        this.isShowMenu = isShowMenu;
     }
     
 }

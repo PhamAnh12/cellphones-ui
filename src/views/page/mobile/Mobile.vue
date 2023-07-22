@@ -4,7 +4,7 @@
       <div class="page-link-item">
         <icon-home></icon-home>
       </div>
-      <div class="page-link-item">Trang chủ</div>
+      <router-link to="/" class="page-link-item">Trang chủ</router-link>
       <div class="page-link-item">
         <icon-right />
       </div>
@@ -298,11 +298,11 @@
         <product-item :product="phone"></product-item>
       </div>
     </div>
-    <div class="page-product-add-btn">
-      <div class="product-add-btn-container">
+    <div class="page-product-add-btn"   >
+      <div class="product-add-btn-container" >
         <span> Xem thêm 100 sản phẩm</span>
         <div class="product-add-btn-icon">
-          <icon-down></icon-down>
+          <icon-down ></icon-down>
         </div>
       </div>
     </div>
@@ -344,8 +344,10 @@ export default {
   },
   data() {
     return {
-      colorDown: "#00000",
+      colorDown: "#4a4a4a",
       colorDownRed: "#D70018",
+      colorDownBlack: "#4a4a4a",
+      isBtnHover:false,
       phones: [
         {
           img: "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",

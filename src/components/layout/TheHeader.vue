@@ -116,8 +116,8 @@
   </div>
    <div class="layout-modal" v-if="isMenuShow">
     <div class="layout-overlay">
-        <div class="layout-body">
-          <div class="layout-menu" ref="modal-menu" >
+        <div class="layout-body" :class="{'layout-menu-page':isLayoutMenu}">
+          <div class="layout-menu "  ref="modal-menu" >
             <home-top-menu></home-top-menu>
           </div>
         </div>
@@ -127,14 +127,19 @@
 
 <script>
 import HomeTopMenu from '../../views/page/home/home-top/HomeTopMenu.vue';
+import Common from '../../script/common';
 export default {
   components:{
     HomeTopMenu
   },
   data(){
     return {
-      isMenuShow:false
+      isMenuShow:false,
+      isLayoutMenu:false
     }
+  },
+  setup(){
+    
   }
 };
 </script>
@@ -311,6 +316,9 @@ input::placeholder{
     width: 205px;
     z-index: 4;
     background: #ffff;
+}
+ .layout-menu-page{
+  margin-top: 140px;
 }
 </style>
 

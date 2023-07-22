@@ -10,7 +10,7 @@
 
       <icon-right />
     </div>
-    <div class="product-question-item-content" @click="showQuestionContent">
+    <div class="product-question-item-content " @click="showQuestionContent">
       <p>
         Khách hàng
         <strong>nên tham gia thu cũ đổi mới, lên đời điện thoại</strong> tại
@@ -147,32 +147,12 @@ export default {
   },
   data() {
     return {
-      isShowQContnent: true,
-      isShowQContnentAcv:false
+     
     };
   },
   methods: {
     showQuestionContent(e) {
-      if (this.isShowQContnentAcv) {
-        const productQueContent = document.querySelector(
-          ".product-question-item-content--active"
-        );
-        productQueContent.className = "product-question-item-content";
-        this.isShowQContnentAcv = false;
-        
-      }
-      const nextSibling = e.target.nextSibling;
-      if (this.isShowQContnent) {
-        nextSibling.className = "product-question-item-content--active";
-        this.isShowQContnent = false;
-        this.isShowQContnentAcv = true;
-      } else {
-        nextSibling.className = "product-question-item-content";
-        this.isShowQContnent = true;
-      }
-
-      
-      
+       
     },
   },
 };
