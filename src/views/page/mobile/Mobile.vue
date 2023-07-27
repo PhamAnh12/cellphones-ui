@@ -8,7 +8,6 @@
       <div class="page-link-item">
         <icon-right />
       </div>
-
       <div class="page-link-item">Điện thoại</div>
     </div>
   </div>
@@ -27,91 +26,13 @@
         />
       </router-link>
     </div>
-    <div class="page-product-list-firm">
-      <router-link class="product-list-firm-item" to="/mobile/iphone">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_59.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_60.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_61.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_62.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_63.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_37_1.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_65.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_67.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/t/_/t_i_xu_ng_67_.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/n/u/nubia-cate-icon.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/f/r/frame_69_1_.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <img
-          src="https://cdn2.cellphones.com.vn/x50,webp,q30/media/tmp/catalog/product/i/n/infinixlogo.png"
-          alt=""
-        />
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <p>ĐIỆN THOẠI PHỔ THÔNG</p>
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <p>TIN ĐỒN - MỚI RA</p>
-      </router-link>
-      <router-link class="product-list-firm-item" to="">
-        <p>HÃNG KHÁC</p>
-      </router-link>
-    </div>
+    <mobile-list-firm />
     <div class="page-product-demand">
-      <div to="" class="product-demand-item">
+      <div class="page-product-demand-title">
+        Chọn theo nhu cầu
+      </div>
+      <div class="page-product-demand-container">
+        <div to="" class="product-demand-item">
         <router-link
           class="product-demand-item-link"
           style="
@@ -185,89 +106,12 @@
           <span> Chụp ảnh đẹp </span>
         </router-link>
       </div>
+      </div>
     </div>
     <div class="page-product-hot-sale">
       <home-hot-sale> </home-hot-sale>
     </div>
-
-    <div class="page-product-criteria">
-      <div class="product-criteria-title">Chọn theo tiêu chí</div>
-      <div class="product-criteria-container">
-        <div class="product-criteria-item">
-          <icon-filter />
-          <span>Bộ lọc</span>
-        </div>
-        <div class="product-criteria-item">
-          <icon-truck />
-          <span>Sẵn hàng</span>
-        </div>
-        <div class="product-criteria-item">
-          <icon-money />
-          <span>Giá</span>
-        </div>
-        <div class="product-criteria-item">
-          <p>Nhu cầu sử dụng</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Loại điện thoại</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Bộ nhớ trong</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Dung lượng RAM</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Tính năng đặc biệt</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Tính năng camera</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Tần số quét</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Kích thước màng hình</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Kiểu màn hình</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-        <div class="product-criteria-item">
-          <p>Chíp sử lí</p>
-          <div class="product-criteria-item-icon">
-            <icon-down></icon-down>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <page-product-filter />
     <div class="page-product-sort">
       <div class="page-product-sort-title">Sắp xếp theo</div>
       <div class="page-product-sort-container">
@@ -316,14 +160,13 @@ import ProductItem from "../../../components/base/product/ProductItem.vue";
 import HomeHotSale from "../home/home-content/HomeHotSale.vue";
 import IconHome from "../../../components/base/icon/IconHome.vue";
 import IconRight from "../../../components/base/icon/IconRight.vue";
-import IconFilter from "../../../components/base/icon/IconFilter.vue";
-import IconTruck from "../../../components/base/icon/IconTruck.vue";
-import IconDown from "../../../components/base/icon/IconDown.vue";
-import IconMoney from "../../../components/base/icon/IconMoney.vue";
+import MobileListFirm from "./mobile-base/MobileListFirm.vue";
+import PageProductFilter from "../../../components/base/page-product/PageProductFilter.vue";
 import IconSortUp from "../../../components/base/icon/IconSortUp.vue";
 import IconSortDown from "../../../components/base/icon/IconSortDown.vue";
 import IconPercent from "../../../components/base/icon/IconPercent.vue";
 import IconSee from "../../../components/base/icon/IconSee.vue";
+import IconDown from "../../../components/base/icon/IconDown.vue";
 import PageProductBottom from "../../../components/base/page-product/page-product-bottom/PageProductBottom.vue";
 export default {
   components: {
@@ -331,15 +174,14 @@ export default {
     ProductItem,
     IconHome,
     IconRight,
+    MobileListFirm ,
     HomeHotSale,
-    IconFilter,
-    IconDown,
-    IconMoney,
-    IconTruck,
+    PageProductFilter ,
     IconSortUp,
     IconSortDown,
     IconPercent,
     IconSee,
+    IconDown,
     PageProductBottom,
   },
   data() {
@@ -532,183 +374,5 @@ export default {
 </script>
 
 <style scoped>
-.container-page-product {
-  margin-top: 150px;
-}
-/* Page product banner */
-.page-product-banner-img {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.product-banner-img-item img {
-  border-radius: 6px;
-  height: auto;
-  width: 100%;
-}
-/* Page product firm */
-.page-product-list-firm {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-.product-list-firm-item {
-  align-items: center;
-  border: 1px solid #e5e7eb;
-  border-radius: 4px;
-  display: flex;
-  height: 34px;
-  justify-content: center;
-  margin: 0 10px 10px 0;
-  padding: 2px 4px;
-}
-.product-list-firm-item img,
-p {
-  height: 20px;
-}
-.product-list-firm-item p {
-  font-weight: 700;
-}
-/* Page product demand */
-.page-product-demand {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-.product-demand-item {
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
-    0 2px 6px 2px rgba(60, 64, 67, 0.15);
-  display: block;
-  min-height: 125px;
-  overflow: hidden;
-  position: relative;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  width: 100%;
-  width: 111px;
-  margin-bottom: 10px;
-}
-.product-demand-item:not(:nth-of-type(10n)) {
-  margin-right: 10px;
-}
-.product-demand-item-link {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-position: 100% 100% !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-}
-.product-demand-item-link span {
-  color: #ffff;
-  font-weight: 600;
-  color: #fff;
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  max-width: 114px;
-  padding-top: 5px;
-  padding-left: 5px;
-  width: 100%;
-  word-break: break-word;
-}
 
-/* page-product-criteria page-product-sort */
-.page-product-criteria,
-.page-product-sort {
-  width: 100%;
-}
-.product-criteria-title,
-.page-product-sort-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-.product-criteria-container,
-.page-product-sort-container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.product-criteria-item,
-.page-product-sort-item {
-  align-items: center;
-  background: #f3f4f6;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  color: #444;
-  cursor: pointer;
-  display: flex;
-  font-size: 12px;
-  height: 34px;
-  margin: 0 10px 10px 0;
-  padding: 5px 10px;
-  white-space: nowrap;
-  justify-content: space-between;
-}
-.page-product-sort-item,
-.product-criteria-item span {
-  margin-left: 6px;
-}
-.product-criteria-item p {
-  margin-right: 6px;
-}
-.product-sort-item--active {
-  border: 1px solid var(--color--primary);
-  color: var(--color--primary);
-  font-size: 13px;
-  background: #fef2f2;
-}
-/* Page list product */
-.page-list-product {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: 8px;
-}
-.page-list-product-container {
-  width: calc(100% / 5 - 10px);
-  display: flex;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-/* page-product-add-btn */
-.page-product-add-btn {
-  align-items: center;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
-    0 2px 6px 2px rgba(60, 64, 67, 0.15);
-  color: #212529;
-  display: flex;
-  font-size: 14px;
-  height: 34px;
-  justify-content: center;
-  margin: 0 auto 15px;
-  max-width: 335px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-.page-product-add-btn:hover {
-  background-color: var(--color-bg-hover);
-  color: var(--color--primary);
-  border: 1px solid var(--color--primary);
-}
-
-.product-add-btn-container {
-  display: flex;
-  align-items: center;
-  padding: 6px 14px;
-}
-.product-add-btn-icon {
-  display: flex;
-  align-items: center;
-  margin-left: 6px;
-}
 </style>
