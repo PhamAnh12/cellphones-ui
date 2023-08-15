@@ -25,7 +25,7 @@
         </router-link>
         <router-link class="product-banner-img-item" to="">
           <img
-            src="https://cdn2.cellphones.com.vn/595x,webp,q80/https://dashboard.cellphones.com.vn/storage/oppo-a78-cate-moban.png"
+            src="https://cdn2.cellphones.com.vn/595x,webp,q80/https://dashboard.cellphones.com.vn/storage/b2s-cate-dday-p1.png"
             alt=""
           />
         </router-link>

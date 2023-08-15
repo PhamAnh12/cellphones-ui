@@ -2,7 +2,7 @@
   <div class="product-question">
     <p class="product-question-title">CÂU HỎI THƯỜNG GẶP</p>
 
-    <div class="product-question-item" @click="showQuestionContent">
+    <div class="product-question-item" @click="quesContent1 = !quesContent1, quesContent2=false,quesContent3=false,quesContent4=false,quesContent5=false">
       <p>
         Vì sao tôi nên tham gia thu cũ đổi mới khi mua điện thoại tại
         CellphoneS?
@@ -10,7 +10,7 @@
 
       <icon-right />
     </div>
-    <div class="product-question-item-content " @click="showQuestionContent">
+    <div class="product-question-item-content " v-show="quesContent1">
       <p>
         Khách hàng
         <strong>nên tham gia thu cũ đổi mới, lên đời điện thoại</strong> tại
@@ -31,14 +31,14 @@
       </ul>
     </div>
 
-    <div class="product-question-item" @click="showQuestionContent">
+    <div class="product-question-item" @click="quesContent2 = !quesContent2,quesContent1=false,quesContent3=false,quesContent4=false,quesContent5=false">
       <p>
         Thủ tục trả góp điện thoại tại CellphoneS như thế nào? Có dễ dàng không?
       </p>
 
       <icon-right />
     </div>
-    <div class="product-question-item-content">
+    <div class="product-question-item-content" v-show="quesContent2">
       <p>
         Thủ tục mua trả góp điện thoại tại CellphoneS rất dễ dàng và nhanh
         chóng.
@@ -54,14 +54,14 @@
         được ngay sản phẩm mới trên tay.
       </p>
     </div>
-    <div class="product-question-item" @click="showQuestionContent">
+    <div class="product-question-item"  @click="quesContent3 = !quesContent3, quesContent1=false,quesContent2=false,quesContent4=false,quesContent5=false ">
       <p>
         Khách hàng thành viên (Smember) được ưu đãi những gì khi mua điện thoại?
       </p>
 
       <icon-right />
     </div>
-    <div class="product-question-item-content">
+    <div class="product-question-item-content" v-show="quesContent3">
       <p>
         Khách hàng thành viên (Smember) sẽ nhận được
         <strong> các ưu đãi hấp dẫn </strong> khi mua điện thoại như sau:
@@ -84,14 +84,14 @@
         </li>
       </ul>
     </div>
-    <div class="product-question-item" @click="showQuestionContent">
+    <div class="product-question-item" @click="quesContent4 = !quesContent4, quesContent1=false,quesContent2=false,quesContent3=false,quesContent5=false ">
       <p>
         Tôi có thể bảo hành điện thoại ở đâu và chính sách bảo hành như thế nào?
       </p>
 
       <icon-right />
     </div>
-    <div class="product-question-item-content">
+    <div class="product-question-item-content" v-show="quesContent4">
       <p>
         Quý khách hàng có thể bảo hành điện thoại đã mua tại
         <strong> hệ thống tất cả cửa hàng CellphoneS</strong>
@@ -110,12 +110,12 @@
         </li>
       </ul>
     </div>
-    <div class="product-question-item" @click="showQuestionContent">
+    <div class="product-question-item"  @click="quesContent5 = !quesContent5, quesContent1=false,quesContent2=false,quesContent3=false,quesContent4=false ">
       <p>Tôi có thể thanh toán qua những hình thức nào?</p>
 
       <icon-right />
     </div>
-    <div class="product-question-item-content">
+    <div class="product-question-item-content" v-show="quesContent5">
       <p>
         CellphoneS cung cấp <strong>nhiều phương thức thanh toán</strong> khác
         nhau để khách hàng có thể dễ dàng lựa chọn như:
@@ -147,13 +147,15 @@ export default {
   },
   data() {
     return {
-     
+         quesContent1:false,
+         quesContent2:false,
+         quesContent3:false,
+         quesContent4:false,
+         quesContent5:false,
     };
   },
   methods: {
-    showQuestionContent(e) {
-       
-    },
+    
   },
 };
 </script>
@@ -199,7 +201,6 @@ export default {
   overflow: hidden;
   text-align: justify;
   padding: 10px;
-  display: none;
 }
 .product-question-item-content--active {
   display: block;

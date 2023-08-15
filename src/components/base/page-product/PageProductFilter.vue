@@ -1,6 +1,5 @@
 <template>
   <div class="page-product-criteria">
-    <div class="product-criteria-title">Chọn theo tiêu chí</div>
     <div class="product-criteria-container">
       <div class="product-criteria-item">
         <icon-filter />

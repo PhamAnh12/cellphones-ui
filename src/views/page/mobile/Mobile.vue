@@ -1,4 +1,4 @@
-<template>
+<template >
   <div class="page-link">
     <div class="page-link-container">
       <div class="page-link-item">
@@ -11,6 +11,7 @@
       <div class="page-link-item">Điện thoại</div>
     </div>
   </div>
+  
   <div class="container container-page-product">
     <div class="page-product-banner-img">
       <router-link class="product-banner-img-item" to="">
@@ -21,7 +22,7 @@
       </router-link>
       <router-link class="product-banner-img-item" to="">
         <img
-          src="https://cdn2.cellphones.com.vn/595x,webp,q80/https://dashboard.cellphones.com.vn/storage/oppo-a78-cate-moban.png"
+          src="https://cdn2.cellphones.com.vn/595x,webp,q80/https://dashboard.cellphones.com.vn/storage/b2s-cate-dday-p1.png"
           alt=""
         />
       </router-link>
@@ -111,6 +112,7 @@
     <div class="page-product-hot-sale">
       <home-hot-sale> </home-hot-sale>
     </div>
+    <div class="product-criteria-title">Chọn theo tiêu chí</div>
     <page-product-filter />
     <div class="page-product-sort">
       <div class="page-product-sort-title">Sắp xếp theo</div>

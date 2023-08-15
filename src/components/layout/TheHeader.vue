@@ -127,7 +127,7 @@
 
 <script>
 import HomeTopMenu from '../../views/page/home/home-top/HomeTopMenu.vue';
-import Common from '../../script/common';
+
 export default {
   components:{
     HomeTopMenu
