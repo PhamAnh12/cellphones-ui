@@ -12,7 +12,7 @@
        </div>
        <div class="home-top-right-item">
         <a href="">
-            <img src="https://cdn2.cellphones.com.vn/690x300,webp,q10/https://dashboard.cellphones.com.vn/storage/msi%20gaming%20right%20banner.jpg" alt="">
+            <img src="https://cdn2.cellphones.com.vn/690x300,webp,q10/https://dashboard.cellphones.com.vn/storage/asus%20tuf.jpg" alt="">
         </a>
        </div>
   </div>

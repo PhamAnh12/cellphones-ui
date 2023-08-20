@@ -2,7 +2,7 @@
   <div class="product-container">
     <div class="product-item">
       <div class="product-item-content">
-        <a href="" class="product-item-link">
+        <router-link  :to="`/${product.name}`" class="product-item-link">
           <div class="product-item-img">
             <img
               :src="product.img"
@@ -23,9 +23,15 @@
           <div class="product-item-price-up">
             Giá lên đời: <span class="">{{ product.priceUp }} ₫</span>
           </div>
-        </a>
+          <div class="product-item-coupon" >
+          <div class="product-item-coupon-content" v-if="product.coupon">
+            {{ product.coupon }}
+          </div>
         
-
+        </div>
+        </router-link>
+       
+        
         <div class="product-item-list-icon">
           <icon-star />
           <icon-star />
@@ -133,11 +139,13 @@ export default {
   align-items: center;
 }
 .product-item-coupon {
-  align-items: flex-start;
+  height: 48px;
+}
+.product-item-coupon-content{
   background: #f3f4f6;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
-  display: flex;
+  text-align: left;
   font-size: 12px;
   line-height: 1.5;
   margin-left: 0;
